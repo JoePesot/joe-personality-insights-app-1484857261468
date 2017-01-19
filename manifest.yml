@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: joe-personality-insights-app
+  host: joe-personality-insights-app
+  disk_quota: 1024M
+  services:
+  - joe-personality-insights-app-personality_insights
